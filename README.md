@@ -9,7 +9,7 @@ Unlike high-level frameworks (PyTorch/TensorFlow), this implementation manually 
 ## Features
 
 - **Skip-gram Architecture**: Predicts surrounding context words given a target word.
-- **Negative Sampling (SGNS)**: Replaces the expensive $O(V)$ Softmax with a binary classification task ($O(K)$), significantly speeding up training.
+- **Negative Sampling (SGNS)**: Replaces the expensive $O(V)$ Softmax with a binary classification task $O(K)$, significantly speeding up training.
 - **Subsampling**: Reduces the influence of frequent "noise" words like "the" or "is" using probabilistic discarding.
 - **Unigram Table**: Pre-computes word distributions raised to the $3/4$ power for efficient $O(1)$ noise sampling.
 - **Pure NumPy**: No autograd libraries. All gradients and weight updates are derived and implemented manually.
