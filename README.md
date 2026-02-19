@@ -59,7 +59,7 @@ $$
 | **LEARNING_RATE** | 0.025 | The step size for gradient updates.      |
 | **VOCAB_SIZE** | 10,000  | Number of unique words in the dictionary. |
 
-## 💻 Usage
+## Usage
 
 ### Prerequisites
 
